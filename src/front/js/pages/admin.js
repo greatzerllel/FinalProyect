@@ -8,6 +8,7 @@ import { MyShopping } from "./pagesAdmin/myShopping";
 import { Orders } from "./pagesAdmin/orders";
 import { Profile } from "./pagesAdmin/profile";
 import { ProPublic } from "./pagesAdmin/proPublic";
+import { SideBar } from "../component/sideBar";
 
 
 export const Admin = () => {
