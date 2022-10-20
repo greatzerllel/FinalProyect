@@ -15,18 +15,25 @@ export const Admin = () => {
 
   return (
     <>
-      <SideBar />
+      
+        <div className="flex">
+          <SideBar />
+          <div className="content">
 
-      <Routes>
-        <Route element={<AccAdministration />} path="AccAdministration" />
+          </div>
+        </div>
+
+        {/*        <Routes>
+         <Route element={<AccAdministration />} path="AccAdministration" />
         <Route element={<HistoryAdmin />} path="HistoryAdmin" />
         <Route element={<HistoryClient />} path="HistoryClient" />
         <Route element={<MyShopping />} path="MyShopping" />
         <Route element={<Orders />} path="Orders" />
         <Route element={<Profile />} path="Profile" />
         <Route element={<ProPublic />} path="ProPublic" />
-        <Route element={<h1>Not found!</h1>} />
-      </Routes>
+        <Route element={<h1>Not found!</h1>} /> 
+        </Routes>*/}
+      
     </>
   );
 };

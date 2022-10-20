@@ -1,9 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-#navbarImagen {
-    width: 100px;
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik:ital,wght@0,400;0,600;1,600&display=swap"); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+$red: rgb(248, 0, 0);
+$light: #fff;
+$gray: #c4ccde;
+
+body {
+  font-family: "Great Vibes", cursive;
+  font-family: "Rubik", sans-serif;
+}
+
+#navbarImagen {
+  width: 100px;
+}
+
+#carouselExampleIndicators {
+  width: 1440px;
+  height: 400px;
+}
+.carousel-inner img {
+  width: 1440px;
+  height: 400px;
+  object-fit: fill;
+}
+
+#footerImage {
+  width: 120px;
+  height: 70px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flex .sideBar {
+  width: 20%;
+ /*  height: calc(100vh - 52px);  */
+  height: 100vh; 
+  border-right: 1px solid $gray;
+  color: red;
+  background: aqua !important;
+}

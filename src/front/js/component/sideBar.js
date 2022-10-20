@@ -1,13 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./../../styles/layout.scss";
 
 export const SideBar = () => {
   return (
     <>
       {/* <div className='col-md-2 bg-white'>sideBar</div> */}
-      <div className="sidebar">
+      <div className="sideBar">
+        <br />
+        <br />
+        <br />
         <ul>
           <li>
+            xxxxxxx
             <Link to="">Productos publicados</Link>
           </li>
           <li>

@@ -20,11 +20,21 @@ module.exports = {
           use: ['babel-loader']
         },
         {
-          test: /\.(css|scss)$/, use: [{
+          test: /\.scss$/,
+           use: [
+            {
               loader: "style-loader" // creates style nodes from JS strings
-          }, {
-              loader: "css-loader" // translates CSS into CommonJS
-          }]
+            }, 
+          {
+              loader: "css-loader",// translates CSS into CommonJS
+              options: {
+                modules: true,
+              },             
+          },
+          {
+            loader: 'sass-loader',
+          }
+        ]
         }, //css only files
         {
           test: /\.(png|svg|jpg|gif|jpeg|webp)$/, use: {
