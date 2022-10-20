@@ -7,9 +7,6 @@ export const SideBar = () => {
     <>
       {/* <div className='col-md-2 bg-white'>sideBar</div> */}
       <div className="sideBar">
-        <br />
-        <br />
-        <br />
         <ul>
           <li>
             xxxxxxx
