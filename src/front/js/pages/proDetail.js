@@ -11,7 +11,7 @@ export const ProDetail = () => {
   sessionStorage.setItem("articulo", JSON.stringify(articulo));
   sessionStorage.setItem("articulo_id", JSON.stringify(articulo_id));
 
-  let BACKEND_URL = `https://3001-cgabrielp-finalproject-1d1dl3rvhs2.ws-us76.gitpod.io`;
+  let BACKEND_URL = `https://3001-greatzerlle-finalproyec-905lix3g782.ws-us77.gitpod.io`;
 
   useEffect(() => {
     actions.getDetailById(
