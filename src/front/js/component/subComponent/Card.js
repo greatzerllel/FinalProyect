@@ -7,12 +7,14 @@ const Card = ({post, index, cardClasses}) => {
     <>
 
           <div className={cardClasses } key={index}>
-            <div className="card h-100">
+            <div className="card">
+              <div className="cardImg">
               <img
                 src={post.imagen}
-                className="card-img-top h-100"
+                className="card-img-top"
                 alt="..."
               />
+              </div>        
               <div className="card-body">
                 <h5 className="card-title">$ {post.precio}</h5>
                 <p className="card-text">{post.nombre}</p>
